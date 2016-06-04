@@ -1,0 +1,59 @@
+#contact{
+  text-align: center;
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+
+#contact h1{
+  text-align: center;
+  font-family: lobster two;
+  font-size: 45px;
+  color: #3c4040;
+}
+
+#contact h4{
+  text-align: center;
+  font-family: roboto;
+  font-size: 20px;
+  color: #3c4040;
+}
+
+#contact button{
+  margin-top: 20px;
+  background-color: #3c4040;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.08s linear;
+}
+
+#contact button:hover{
+  background-color: #59c134;
+  color: white;
+  cursor: pointer;
+}
+
+#contact button a{
+  color: white;
+  text-decoration: none;
+}
+
+#contact div{
+  text-align: center;
+  font-size: 35px;
+  color: #919191;
+  margin-top: 30px;
+}
+
+#contact #iconlist i{
+  padding: 10px;
+  cursor: pointer;
+  color: #3c4040;
+  transition: all 0.08s linear;
+}
+
+#contact #iconlist i:hover{
+  color: #59c134;
+}

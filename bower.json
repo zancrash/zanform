@@ -1,0 +1,11 @@
+{
+  "name": "zanform3",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

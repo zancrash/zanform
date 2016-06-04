@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Front End Web Development">
+    <meta name="theme-color" content="#59c134">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zanform</title>
+
+    <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/font-awesome.css">
+  </head>
+
+    
+  <header id="headpic">
+    <div id="titleholder">
+      <h1>Zanform</h1>
+      <h3>Front End Web Development</h3>
+    </div>
+  </header>
+
+  <body>
+
+  <div class="status">
+    
+  </div>
+  <nav>
+    <div class="handle">
+      <div id="hamburger">
+        <b>III</b>
+      </div>
+    </div>
+
+
+    <ul>
+      <a href="#headpic" class="smoothScroll"><li>Home</li></a>
+      <a href="#services" class="smoothScroll"><li>Services</li></a>
+      <a href="#projects" class="smoothScroll"><li>Work</li></a>
+      <a href="#about" class="smoothScroll"><li>About</li></a>
+      <a href="#contact" class="smoothScroll"><li>Contact</li></a>
+    </ul>
+  </nav>
+
+  <div id="content">
+
+  
+  <section id="services">
+
+    <div class="infobox">
+      <h1 id="servicesH1">Services</h1>
+      <h4 id="servicesH4">I code and design for the web!</h4>
+    </div>
+
+
+    <div class="servicebox">
+    <i class="fa fa-code"></i>
+    <h3>
+      Development
+    </h3>
+    <p>Creating web experiences from the ground up to suit your needs!</p>
+    </div>
+    <div class="servicebox">
+    <i class="fa fa-cube"></i>
+    <h3>
+      Design
+    </h3>
+    <p>Form for function: Eye catching styles to inject flavour into the web.</p>
+    </div>
+    <br/>
+    <div class="servicebox">
+    <i class="fa fa-user"></i>
+    <h3>
+      UI/UX
+    </h3>
+    <p>Personalizing the experience.</p>
+    </div>
+    <div class="servicebox">
+    <i class="fa fa-globe"></i>
+    <h3>
+      Web Apps
+    </h3>
+    <p>Applications to bring users together.</p>
+    </div>
+
+  </section><!--end of services-->
+
+  <section id="projects">
+
+    <h1>Project Showcase</h1>
+    <h4>Examples of my web projects</h4>
+
+    <div class="projectholder">
+      <a href="https://s3.amazonaws.com/tempest.com/index.html" target="_blank">
+        <div id="projectimg1"></div><!--end of projectimg-->
+        <h3><span>Tempest Home Monitor</span></h3>
+        <p><span>A home temperature monitor made using AngularJS and Firebase.</span></p>
+      </a>
+    </div><!--end of projectholder-->
+
+  </section>
+
+  <section id="about">
+    <h1>About</h1><br/>
+    <p>
+      Hello! My name is Farzan and I'm a front-end web developer based in Toronto, Canada. I create web experiences that mesh together functionality and design. I enjoy working on projects for businesses small and large, individuals and anyone that wants a web presence.
+    </p><br/>
+    <p>
+      I like to code and design websites and find new and creative ways to present content along with developing web applications everyone can make use of.
+    </p><br/>
+    <p>
+      If you're interested in creating something awesome together, then
+      feel free to get in touch with me using the info below!
+    </p><br/>
+  </section>
+
+
+  <section id="contact">
+    <h1>Contact</h1>
+    <h4>Let's work together!</h4>
+
+    <button>
+      <a href="mailto:farzanali1296@gmail.com?Subject=Zanform%20Mail" target="_top"><i class="fa fa-envelope"></i> farzanali1296@gmail.com</a>
+    </button>
+
+    <div id="iconlist">
+      <a href="https://twitter.com/Zanform" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/zancrash" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="http://codepen.io/Zancrash/" target="_blank"><i class="fa fa-codepen"></i></a>
+    </div>
+  </section>
+  
+  </div><!--end of content-->
+    
+
+    <!--end of page content-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="scripts/smoothscroll.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+
+  <footer>
+    <p><i class="fa fa-copyright"></i> Zanform 2016. Website by Farzan Ali</p>
+  </footer>
+
+</html>

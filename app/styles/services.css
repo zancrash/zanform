@@ -1,0 +1,49 @@
+#services{
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 55px;
+  background-color: #3c4040;
+  width: 100%;
+  text-align: center;
+}
+
+#servicesH1{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-family: Lobster Two;
+}
+
+#servicesH4{
+  margin-bottom: 50px;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.servicebox{
+  margin: 0 auto;
+  display: inline-block;
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+#services div{
+  text-align: center;
+  background-color: #3c4040;
+  color: #59c134;
+  padding: 15px;
+  font-size: 100px;
+}
+
+#services h3{
+  color: #F2F2F2;
+  font-size: 30px;
+  font-family: Roboto;
+}
+
+#services p{
+  font-size: 15px;
+  text-align: center;
+  color: #919191;
+}
