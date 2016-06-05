@@ -2,7 +2,7 @@
   width: 100%;
   text-align: center;
   margin: 0 auto;
-}
+  }
 
 #projects h1{
   text-align: center;
@@ -33,7 +33,7 @@
 }
 
 .projectholder:hover{
-  background-color: #59c134;
+  background-color: #272727;
 }
 
 .projectholder div{
