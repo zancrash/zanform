@@ -6,31 +6,9 @@ $('.handle').on('click', function() {
   $('nav ul').toggleClass('showing');
 });
 
-/*$(document).ready(function(){
-
-	var navOffset = $('nav').offset().top;
-
-	$('nav').wrap('<div class="nav-placeholder"></div>');
-	$('.nav-placeholder').height($('nav').outerHeight());
-
-
-	$(window).scroll(function(){
-		var scrollPos = $(window).scrollTop();
-
-		if (scrollPos >= navOffset){
-			$('nav').addClass('sticky');
-		} else {
-			$('nav').removeClass('sticky');
-		}
-	})
-
-	
-
-});*/
-
 $(document).ready(function(){
   
-  // Even when the window is resized, run this code.
+  // Run this code when window is resized
   $(window).resize(function(){
     
     // Variables
@@ -39,26 +17,18 @@ $(document).ready(function(){
     // Find the value of 90% of the viewport height
     var ninetypercent = .97 * windowHeight;
     
-    // When the document is scrolled ninety percent, toggle the classes
-    // Does not work in iOS 7 or below
-    // Hasn't been tested in iOS 8
     $(document).scroll(function(){
       
-      // Store the document scroll function in a variable
       var y = $(this).scrollTop();
       
-      // If the document is scrolled 90%
-      if( y > ninetypercent) {
-        
-        // Add the "sticky" class
+      // add sticky class after document is scrolled past ninteypercent
+      if( y > ninetypercent) {  
         $('nav').addClass('sticky');
       } else {
-        // Else remove it.
         $('nav').removeClass('sticky');
       }
     });
-
   // Call it on resize.
   }).resize();
   
-}); // jQuery
+});
