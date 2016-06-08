@@ -16,7 +16,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 .hamburger {
-  padding: 15px 15px;
+  padding: 1.5px 20px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
