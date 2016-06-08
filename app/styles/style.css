@@ -680,7 +680,8 @@ header {
   header .smoothScroll {
     text-decoration: none;
     color: inherit;
-    transition: all 0.05s linear; }
+    transition: all 0.05s linear;
+    color: white; }
 
 nav ul {
   overflow: hidden;
@@ -701,6 +702,11 @@ nav ul {
     transition: all 0.09s linear; }
     nav ul li:hover {
       background-color: #59c134; }
+  nav ul .smoothScroll {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.05s linear;
+    color: white; }
 
 .sticky {
   width: 100%;

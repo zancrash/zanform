@@ -60,6 +60,7 @@ header{
   		text-decoration: none;
   		color: inherit;
   		transition: all 0.05s linear;
+  		color: white;
   	}
 }
 
@@ -86,6 +87,13 @@ nav{
   			&:hover{
   				background-color: $green;
   			}
+  		}
+
+  		.smoothScroll{
+  			text-decoration: none;
+  			color: inherit;
+  			transition: all 0.05s linear;
+  			color: white;
   		}
 	}
 
