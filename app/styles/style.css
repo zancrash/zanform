@@ -758,7 +758,9 @@ footer {
   background-color: #272727;
   color: #F2F2F2;
   text-align: center;
-  font-size: 13px; }
+  font-size: 13px;
+  font-family: roboto;
+  overflow-y: hidden; }
 
 #services {
   width: 100%;
