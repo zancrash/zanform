@@ -4,6 +4,8 @@ const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync');
 const del = require('del');
 const wiredep = require('wiredep').stream;
+var sass = require('gulp-sass');
+
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -15,6 +17,16 @@ gulp.task('styles', () => {
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest('.tmp/styles'))
     .pipe(reload({stream: true}));
+});
+
+gulp.task('sass', function () {
+  return gulp.src('app/styles/sass/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('app/styles'));
+});
+
+gulp.task('sass:watch', function () {
+  gulp.watch('app/styles/sass/*.scss', ['sass']);
 });
 
 gulp.task('scripts', () => {

@@ -1,16 +1,13 @@
 #about{
   width: 100%;
   text-align: center;
-  margin: 0 auto;
   margin-top: 95px;
 }
 
 #about h1{
-  text-align: center;
   font-family: lobster two;
   font-size: 45px;
   color: #3c4040;
-  margin: 0 auto;
 }
 
 #about h4{
@@ -21,6 +18,5 @@
   margin: 0 auto;
   color: #636363;
   font-size: 18px;
-  text-align: center;
   width: 50%;
 }

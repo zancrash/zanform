@@ -1,0 +1,57 @@
+@import 'vars';
+
+#contact{
+	text-align: center;
+	margin-top: 95px;
+	margin-bottom: 50px;
+
+	h1{
+		font-family: $heading;
+		font-size: 45px;
+		color: $light-gray;
+	}
+
+	h4{
+		font-family: $main;
+		font-size: 20px;
+		font-weight: normal;
+		color: $light-gray;
+	}
+
+	button{
+		margin-top: 20px;
+		background-color: $light-gray;
+		color: white;
+		font-size: 20px;
+		padding: 15px;
+		border: none;
+		border-radius: 3px;
+		transition: all 0.08s linear;
+
+		&:hover{
+			background-color: $green;
+			cursor: pointer;
+		}
+
+		a{
+			color: white;
+			text-decoration: none;
+		}
+	}
+
+	#iconlist{
+		font-size: 35px;
+		margin-top: 30px;
+
+		i{
+			padding: 10px;
+			cursor: pointer;
+			color: $light-gray;
+			transition: all 0.08s linear;
+
+			&:hover{
+				color: $green;
+			}
+		}
+	}
+}

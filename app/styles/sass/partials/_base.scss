@@ -1,0 +1,154 @@
+@import 'vars';
+
+html{
+	margin: 0;
+	padding: 0;
+
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: white;
+	}
+}
+
+header{
+	min-width: 100%;
+	height: 91vh;
+	padding: 40px 0;
+	color: white;
+	text-align: center;
+	background-image: url('http://i.imgur.com/pnjLOlO.jpg');
+  	background-position: center;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+
+  	#titleholder{
+  		padding: 5px;
+  	}
+
+  	h1{
+  		color: $green;
+  		font-family: sans-serif;
+  		font-size: 45px;
+  		margin-top: 30vh;
+  	}
+
+  	h3{
+  		font-family: $main;
+  		color: white;
+  	}
+
+  	button{
+  		width: 70px;
+  		height: 70px;
+  		padding: 10px 16px;
+  		font-size: 24px;
+  		line-height: 1.33;
+  		border-radius: 35px;
+  		color: white;
+  		border: none;
+  		background-color: $dark-gray;
+  		cursor: pointer;
+  		transition: all 0.08s linear;
+
+  		&:hover{
+  			background-color: $green;
+  		}
+  	}
+
+  	.smoothScroll{
+  		text-decoration: none;
+  		color: inherit;
+  		transition: all 0.05s linear;
+  	}
+}
+
+nav{
+	ul{
+		overflow: hidden;
+		color: white;
+		background-color: $dark-gray;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		-webkit-transition: max-height 0.4s;
+  		-ms-transition: max-height 0.4s;
+  		-moz-transition: max-height 0.4s;
+  		transition: max-height 0.4s;
+
+  		li{
+  			display: inline-block;
+  			padding: 20px;
+  			font-family: $main;
+  			font-weight: bold;
+  			transition: all 0.09s linear;
+
+  			&:hover{
+  				background-color: $green;
+  			}
+  		}
+	}
+
+	
+}
+
+.sticky{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	text-align: center;
+}
+
+.handle{
+	width: 100%;
+	background-color: $green;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	display: none;
+}
+
+@media screen and (max-width: 580px){
+	nav{
+		ul{
+			max-height: 0px;
+
+			li{
+				box-sizing: border-box;
+				width: 100%;
+				padding: 15px;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.showing{
+		max-height: 20em;
+	}
+
+	.handle{
+		display: flex;
+		text-align: left;
+	}
+}
+
+#content{
+	margin: 0 auto;
+	display: block;
+
+	p{
+		font-family: sans-serif;
+	}
+}
+
+footer{
+	padding-top: 5px;
+	width: 100%;
+	height: 100%;
+	background-color: $dark-gray;
+	color: $white-gray;
+	text-align: center;
+	font-size: 13px;
+}

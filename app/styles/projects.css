@@ -36,27 +36,23 @@
   background-color: #272727;
 }
 
-.projectholder div{
-  width: 100%;
-  height: 300px;
-}
-
 .projectholder a{
   text-decoration: none;
 }
 
 .projectholder h3{
   text-align: center;
-  font-family: ubuntu;
+  font-family: sans-serif;
   color: #F2F2F2;
 }
 
 .projectholder p{
   color: #919191;
-  color: white;
 }
 
 #projectimg1{
+  width: 100%;
+  height: 300px;
   background-image: url('http://i.imgur.com/OBhG1ht.png');
   background-position: center;
   background-size: 109%;

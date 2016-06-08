@@ -4,6 +4,8 @@
 //toggle navbar class:
 $('.handle').on('click', function() {
   $('nav ul').toggleClass('showing');
+  $('.hamburger').toggleClass('is-active');
+  console.log('menu active');
 });
 
 $(document).ready(function(){

@@ -1,0 +1,24 @@
+@import 'vars';
+
+#about{
+	width: 100%;
+	text-align: center;
+	margin-top: 95px;
+
+	h1{
+		font-family: $heading;
+		font-size: 45px;
+		color: $light-gray;
+	}
+
+	h4{
+		font-weight: normal;
+	}
+
+	p{
+		margin: 0 auto;
+		color: $text-dark;
+		font-size: 18px;
+		width: 50px;
+	}
+}

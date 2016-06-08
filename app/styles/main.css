@@ -12,16 +12,16 @@ body{
 }
 
 header{
-  
-  width: 100%;
+  min-width: 100%;
   height: 91vh;
   padding: 40px 0;
   color: white;
   text-align: center;
-  background-color: #272727;
   background-image: url('http://i.imgur.com/pnjLOlO.jpg');
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 #titleholder{
@@ -29,14 +29,14 @@ header{
 }
 
 header h1{
-  font-family: roboto;
+  font-family: sans-serif;
   color: #59c134;
   font-size: 45px;
   margin-top: 30vh;
 }
 
 header h3{
-  font-family: sans-serif;
+  font-family: roboto;
   color: white;
 }
 
@@ -62,7 +62,6 @@ header button:hover{
   text-decoration: none;
   color: inherit;
   transition: all 0.05s linear;
-  margin-left-right: 0;
 }
 
 nav ul{
@@ -90,7 +89,7 @@ nav ul li{
   padding: 20px;
   font-family: roboto;
   font-weight: bold;
-  transition: all 0.08s linear;
+  transition: all 0.09s linear;
 }
 
 nav ul li:hover{
@@ -120,56 +119,16 @@ nav ul li:hover{
     width: 100%;
     padding: 15px;
     font-weight: bold;
-    padding-left-right: 0;
   }
 
   .handle{
     display: flex;
-    text-align: left;
-
-  }
-
-  .handle > div{
-    float: right;
-  }
-
-  #hamburger{
-    width:30px;
-    height:100%;
-    box-sizing:border-box;
-    text-align:center;
-    font-family:sans-serif;
-    line-height:30px;
-    color:white;
-    font-size:15px;
-    background-color: #4EB32B;
-    cursor: pointer;
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
   }
 }
 
 #content{
   margin: 0 auto;
   display: block;
-}
-
-#content h4{
-  font-weight: normal;
-}
-
-#content h6{
-  font-family: roboto;
-  font-size: 20px;
-}
-
-#content h6 i{
-  cursor: default;
-}
-
-#content h6 i:hover{
-  color: #919191;
 }
 
 #content p{
