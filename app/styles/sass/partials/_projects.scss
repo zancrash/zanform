@@ -21,45 +21,46 @@
 	}
 
 	.projectholder{
-		padding: 10px;
+    padding: 10px;
 		margin: 0 auto;
-  		margin-top: 50px;
+    margin-top: 50px;
 		text-align: center;
-  		min-width: 250px;
-  		max-width: 400px;
-  		display: inline-block;
-  		background-color: $light-gray;
-  		border-radius: 3px;
-  		transition: all 0.08s linear;
+  	min-width: 250px;
+  	max-width: 400px;
+  	display: inline-block;
+  	background-color: $light-gray;
+  	border-radius: 3px;
+  	transition: all 0.08s linear;
 
-  		&:hover{
-  			background-color: $dark-gray;
+    &:hover{
+      background-color: $dark-gray;
+  	}
+
+
+
+    a{
+      text-decoration: none;
+
+      h3{
+        text-align: center;
+  			font-family: sans-serif;
+  			color: $white-gray;
   		}
 
-  		
-
-  		a{
-  			text-decoration: none;
-
-  			h3{
-  				text-align: center;
-  				font-family: sans-serif;
-  				color: $white-gray;
-  			}
-
-  			p{
-  				color: $text-gray;
-  			}
-
-  			#projectimg1{
-  				width: 100%;
-  				height: 300px;
-  				background-image: url('http://i.imgur.com/OBhG1ht.png');
-  				background-position: center;
-  				background-size: 109%;
-  				cursor: pointer;
-  				transition: all 0.08s linear;
-  			}
+  		p{
+        color: $text-gray;
   		}
+
+      #projectimg1{
+        width: 100%;
+  			height: 300px;
+  			background-image: url('http://i.imgur.com/OBhG1ht.png');
+  			background-position: center;
+  			background-size: 109%;
+  			cursor: pointer;
+  			transition: all 0.08s linear;
+      }
+  		}
+      
   	}
 }

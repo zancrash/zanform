@@ -8,6 +8,12 @@ $('.handle').on('click', function () {
   console.log('menu active');
 });
 
+//close navbar on select
+$('nav ul li').on('click', function () {
+  $('nav ul').toggleClass('showing');
+  $('.hamburger').toggleClass('is-active');
+});
+
 $(document).ready(function () {
 
   // Run this code when window is resized
