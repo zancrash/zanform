@@ -3,7 +3,11 @@
 #about{
 	width: 100%;
 	text-align: center;
-	margin-top: 95px;
+	margin-top: 0px;
+	background-color: $white-gray;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	height: 94vh;
 
 	h1{
 		font-family: $heading;
@@ -15,7 +19,7 @@
 		font-weight: normal;
 		font-family: $main;
 		font-size: 20px;
-		color: $light-gray
+		color: $light-gray;
 	}
 
 	p{

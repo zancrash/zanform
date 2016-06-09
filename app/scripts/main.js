@@ -9,7 +9,7 @@ $('.handle').on('click', function() {
 });
 
 //close navbar on select
-$('nav ul li').on('click', function(){
+/*$('nav ul li').on('click', function(){
   $('nav ul').toggleClass('showing');
   $('.hamburger').toggleClass('is-active');
 })
@@ -39,4 +39,4 @@ $(document).ready(function(){
   // Call it on resize.
   }).resize();
   
-});
+});*/
