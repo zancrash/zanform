@@ -31,15 +31,13 @@ header{
   		color: $green;
   		font-family: $title;
   		font-size: 45px;
-  		margin-top: 20vh;
-  		-webkit-filter: contrast(140%);
+  		margin-top: 30vh;
   		cursor: default;
   	}
 
   	h3{
   		font-family: $main;
   		color: white;
-  		-webkit-filter: contrast(140%);
   	}
 
   	p{
@@ -67,7 +65,10 @@ header{
 
 nav{
 	ul{
+		position: fixed;
 		overflow: hidden;
+		top: 0;
+		width: 100%;
 		color: white;
 		background-color: $dark-gray;
 		padding: 0;
@@ -86,7 +87,7 @@ nav{
   			transition: all 0.09s linear;
 
   			&:hover{
-  				background-color: $green;
+  				color: $green;
   			}
   		}
 
@@ -101,13 +102,12 @@ nav{
 	
 }
 
-.sticky{
+/*.sticky{
 	width: 100%;
 	position: fixed;
 	top: 0;
 	text-align: center;
-	box-shadow: 0px 1.5px 19px 0px $dark-gray;
-}
+}*/
 
 .handle{
 	width: 100%;
@@ -118,7 +118,6 @@ nav{
 	padding: 15px 10px;
 	cursor: pointer;
 	display: none;
-	box-shadow: 0px 1.5px 19px 0px $dark-gray;
 
 	button{
 		float: right;

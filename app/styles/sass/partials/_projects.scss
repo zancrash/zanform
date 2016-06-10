@@ -21,20 +21,19 @@
 	}
 
 	.projectholder{
-    padding: 15px;
+    padding: 10px;
 		margin: 0 auto;
     margin-top: 50px;
 		text-align: center;
     border-style: none;
-    min-width: 30%;
-  	/*min-width: 250px;
-  	max-width: 400px;*/
+    max-width: 360px;
   	display: inline-block;
-  	background-color: $light-gray;
-  	transition: all 0.08s linear;
+  	background-color: $white-gray;
+  	transition: all 0.2s linear;
+    cursor: pointer;
 
     &:hover{
-      background-color: $dark-gray;
+      background-color: $light-dark;
   	}
 
 
@@ -44,12 +43,15 @@
 
       h3{
         text-align: center;
-  			font-family: sans-serif;
-  			color: $white-gray;
+  			font-family: $main;
+  			color: $dark-gray;
+        margin-top: 0;
+        padding-top: 2vh;
   		}
 
   		p{
-        color: $text-gray;
+        color: $text-dark;
+        font-family: $main;
   		}
 
       #projectimg1{
@@ -59,7 +61,7 @@
   			background-position: center;
   			background-size: cover;
   			cursor: pointer;
-  			transition: all 0.08s linear;
+  			transition: all 0.1s linear;
       }
   	}
   }
