@@ -8,18 +8,23 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
 .hamburger {
   padding: 1.5px 20px;
   display: inline-block;
@@ -656,7 +661,7 @@ header {
   padding: 40px 0;
   color: white;
   text-align: center;
-  background: url("http://i.imgur.com/WRuSSWX.jpg");
+  background: url("https://images.unsplash.com/photo-1430353577697-85a11f34f2ec?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=07ae0e25e0e4c666e0d299922ebc1ac4");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -777,7 +782,7 @@ footer {
     text-align: center;
     color: white;
     font-size: 45px;
-    font-family: Lobster Two; }
+    font-family: Courgette; }
   #services h4 {
     margin-bottom: 50px;
     color: white;
@@ -810,7 +815,7 @@ footer {
   margin: 0 auto; }
   #projects h1 {
     text-align: center;
-    font-family: Lobster Two;
+    font-family: Courgette;
     color: #3c4040;
     font-size: 45px; }
   #projects h4 {
@@ -856,10 +861,9 @@ footer {
   margin-top: 0px;
   background-color: #F2F2F2;
   padding-top: 10px;
-  padding-bottom: 30px;
-  height: 94vh; }
+  padding-bottom: 30px; }
   #about h1 {
-    font-family: Lobster Two;
+    font-family: Courgette;
     font-size: 45px;
     color: #3c4040; }
   #about h4 {
@@ -871,14 +875,15 @@ footer {
     margin: 0 auto;
     color: #636363;
     font-size: 18px;
-    width: 50%; }
+    min-width: 50%;
+    max-width: 80%; }
 
 #contact {
   text-align: center;
   margin-top: 95px;
   margin-bottom: 50px; }
   #contact h1 {
-    font-family: Lobster Two;
+    font-family: Courgette;
     font-size: 45px;
     color: #3c4040; }
   #contact h4 {
