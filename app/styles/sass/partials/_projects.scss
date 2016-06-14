@@ -26,10 +26,11 @@
     margin-top: 50px;
 		text-align: center;
     border-style: none;
-    max-width: 360px;
+    min-width: 250px;
+    max-width: 400px;
   	display: inline-block;
   	background-color: $white-gray;
-  	transition: all 0.2s linear;
+  	transition: all 0.1s linear;
     cursor: pointer;
 
     &:hover{
